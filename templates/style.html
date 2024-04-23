@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h2>FOOTBALL</h2>
+        <img src="{% static 'images/images.jpeg' %}" alt="">
+    </center>
+    <a href="{% url 'style:forgive' %}">GO TO STYLE</a>
+    <a href="{% url 'kind:kind' %}">kind</a>
+    <a href="{% url 'kind:peace' %}">peace</a>
+</body>
+</html>
